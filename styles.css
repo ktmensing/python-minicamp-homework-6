@@ -1,0 +1,43 @@
+.header {
+  background-color: red;
+  height: 80px;
+  padding-top: 10px;
+}
+
+p {
+  background-color: black;
+  height: 40px;
+  width: 80%;
+  margin-left: 10%;
+}
+
+.main {
+  background-color: blue;
+  height: 800px;
+  width: 70%;
+  margin-left: 15%;
+  padding-top: 30px;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  margin-left: -40px;
+}
+
+.box {
+  background: yellow;
+  height: 100px;
+  width: 100px;
+  list-style: none;
+  margin-left: 40px;
+}
+
+.box:hover {
+  background: orange;
+}
+
+.footer {
+  background-color: green;
+  height: 80px;
+}
